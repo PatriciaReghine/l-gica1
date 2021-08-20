@@ -1,0 +1,95 @@
+<meta charset= "UTF-8">
+
+
+<script>
+function pulaLinha(){
+
+	document.write("<br><br>");
+
+}
+
+function mostra(frase) {
+
+	document.write(frase);
+
+	pulaLinha();
+}
+
+
+ var contador = 10
+
+   /*while ( contador <= 30) { 
+ 	if (contador  == 11 ) {
+     contador++
+
+ 	}
+
+ 	if(contador == 21){
+      contador++
+ 	}
+
+
+  else {
+
+ 	mostra(contador);  
+ 	contador++ 
+ }
+ */   
+ 	
+
+    alert("Para acessar advinhe minha senha !! obs: A cor que mais gosto é..... ");
+    alert("Esta carregando !!");
+
+    var senha = prompt("Advinhe minha senha, você consegue :) !! ");
+
+    if (senha == "rosa") { 
+     
+     alert("Liberado, clique em OK");
+     document.write("<h1>Confira os números da minha página !!</h1>");
+
+     while(contador <= 30)  {
+
+     	if (contador  == 11 ) {
+     contador++
+
+ 	}
+
+ 	if(contador == 21){
+      contador++
+ 	}
+
+
+  else {
+
+ 	mostra(contador);  
+ 	contador++ 
+ }
+     }
+
+     mostra("<h1><big> Dica especial</big></h1>");
+     mostra("<h1>Brigadeiro de colher</h1>");
+     mostra("1 lata de leite condensado,3 colheres de chocolate em pó, 1 colher de margarina ou manteiga");
+     mostra("Preparo");
+     mostra("Coloque a manteiga em uma panela e espere derreter,coloque o leite condesado e o chocolate em pó e deixe em fogo médio,deixe até quando estiver soltando da panela.");
+
+
+     mostra("Fim");
+
+     
+
+     
+     } else {
+    
+
+	alert("Negado ");
+
+	mostra ("<h1><big> ERRO !! Na próxima você consegue ;) </big></h1>");
+	mostra("A minha senha era .................");
+	mostra("Brincadeira, em uma próxima te conto.");
+
+
+
+	}
+
+
+</script>
